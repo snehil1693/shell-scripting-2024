@@ -22,7 +22,7 @@ else
   echo -e "\e[31m fail\e[0m"
 fi
 
-echo -n -e "Starting Nginx\t\t..."
+echo -n -e "Starting Nginx\t\t\t..."
 systemctl start nginx  &>>$LOG
 echo $?
 if [ $? -eq 0 ];then
