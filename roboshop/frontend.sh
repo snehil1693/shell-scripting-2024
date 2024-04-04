@@ -2,7 +2,7 @@
 
 source common.sh
 
-PRINT "Installing Nginx"
+PRINT "Installing Nginx\t"
 yum install nginx -y  &>>$LOG
 STAT_CHECK $?
 
