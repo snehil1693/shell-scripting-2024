@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-source commin.sh
+source common.sh
 
 PRINT "Installing Nginx"
 
