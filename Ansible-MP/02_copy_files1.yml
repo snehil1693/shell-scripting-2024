@@ -1,0 +1,10 @@
+---
+- name: Copying files to remote
+  hosts: all
+
+  task:
+    - name: Copy files
+      copy:
+        src: /root/myfile.txt
+        dest: /tmp/
+        owner: paul
