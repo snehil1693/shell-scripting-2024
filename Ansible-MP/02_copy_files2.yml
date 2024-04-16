@@ -1,0 +1,12 @@
+---
+- name: Copying the files to remote
+  hosts: all
+
+  tasks:
+    - name: copy the file
+      copy:
+        src: /root/myfile.txt
+        dest: /tmp/
+        owner: paul
+        group: paul
+        mode: 0777
